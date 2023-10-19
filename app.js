@@ -1,4 +1,3 @@
-
 const express = require('express')
 const hbs = require('hbs')
 require('dotenv').config()
@@ -37,12 +36,6 @@ app.get('*', (req, res ) => {
     res.render('404')
 })
 
-
-
-/*
-app.get('*', (req, res)=> {
-    res.sendFile(__dirname + '/public/404.html')
-})*/
 
 app.listen(port, ()=>{
     console.log(`Ejemplo app listen at http://localhost:${port}`)
