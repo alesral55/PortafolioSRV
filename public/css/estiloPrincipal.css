@@ -1,56 +1,144 @@
 body {
-    
     margin: 0;
-    margin-top: 70px;
     padding: 0;
-    font-family: "Comic Sans MS", cursive;
-    background-color: #A904BF;
-    background: rgb(3, 0, 54);
-    background: linear-gradient(90deg, rgb(9, 3, 116) 0%, rgba(21,59,163,0.9080882352941176) 54%, rgba(0,65,255,1) 100%);
-    color: white;
+    background-color: rgb(13, 20, 36);
+    overflow-y: scroll;
+    background-image: url('/images/lago.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    display: none; 
 }
 
-.portafolio {
-    padding-left: 20px;
-    padding-top: 0px;
-    color: white;
-    font-size: large;
+.presentacion {
+
+    height: 100vh; 
+    width: 100%;
+    background-image: url('/images/lago.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+.row{
+margin: 0;
+padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
 }
 
-.Contactame{
-    position: absolute;
-    top: 20px; 
-    right: 30px;
-    color: blue;
+.presentacion2 {
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100%;
+    background: rgba(13, 20, 36,0.9);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
 }
-.tName{
-    padding-left: 100px;
-    padding-top: 0px;
-    margin-top: 0px;
+.presentacion3 {
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100%;
+    background: rgba(13, 20, 36,0.9);
+    padding: 10px;
+    display: flex;
+    color: white; 
+    overflow-x: scroll;
+
+}
+
+
+.fondoName{
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100%;
+    background: rgba(13, 20, 36, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+}
+.progress-bar{
+    color: rgb(220, 20, 60);
+    background-color:     rgb(220, 20, 60);;
+}
+
+.tName {
+    font-family: "Poppins",Sans-serif;
+    padding-top: 0;
+    margin-top: 0;
     font-size: 80px;
-    width: 700px;
+    color: white;
+}
+
+.eSaludo {
+       font-family: "Roboto Mono",Sans-serif;
+    color: rgb(220, 20, 60);
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.foto-contenedor {
+    border: rgb(37, 37, 37) solid;
+    background-image: url('/images/cleanCode.jpg'); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.img1Contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    margin-top:100px ;
 
 }
 
-.eSaludo{
-    color: #A904BF    ;
-    font-size: xx-large;
-    padding-left: 100px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.img2Contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin: 100px;
+    text-align: center;
 }
 
-.eFoto{
-    position: absolute;
-    top: 0px; 
-    left: 550px;
-    color: rgb(0, 67, 252);
+
+.foto-contenedor img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .btnRegreso {
-    margin-left: 100px;
     margin-top: 1px;
+    margin-bottom: 30px;
     padding-left: 20px;
     display: inline-flex;
     align-items: center;
@@ -62,19 +150,20 @@ body {
 }
 
 .arrowContainer {
-    background-color: #A904BF;
-    border: 2px;
+    background-color: rgb(220, 20, 60);
+    border: none; 
     width: 45px;
     height: 45px;
     margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
+
 .arrowContainer img {
     width: 35px;
     height: 25px;
-
 }
 
 .texto {
@@ -83,191 +172,203 @@ body {
     color: black;
 }
 
-.caja{
+.caja {
     background-color: rgba(54, 2, 88, 0.4);
     width: 760px;
     height: 550px;
     position: absolute;
-    top: 0px; 
+    top: 0px;
     left: 750px;
     right: 0;
 }
 
-.informacion{
-    margin-top: 100PX;
-    background: rgb(18,24,186);
-background: linear-gradient(90deg, rgba(18,24,186,1) 0%, rgba(49,21,163,0.9080882352941176) 54%, rgb(90, 48, 182) 100%);
-
-}
-.img1Contenedor{
-    padding-left: 140px;
-}
-.img1{
-   
-    box-shadow: -30px 30px 1px #A904BF;
-    margin-bottom: 40px;
+.img1 {
+    width: 300px;
+    box-shadow: -20px 20px 1px rgb(220, 20, 60);
+    margin-bottom: 10px;
 }
 
-.contenedorSobreMi{
-    padding-left: 100px;
-padding-right: 150px;
-padding-bottom: 0;
-border-bottom: 0;
-}
 
-.iTitulo{
+.iTitulo {
     font-size: 60px;
-
+    margin: 20px;
 }
-.textoS{
-    border: 4px solid black;
+
+.textoS {
+    background-color: rgba(167, 167, 167, 0.1);
+    border: 3px solid rgb(220, 20, 60);
     width: auto;
-    padding: 4px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
-.ltsSobreMi{
 
-    border: 4px solid black;
-    width: 350px;
-    padding: 4px;
-    margin-right: 20px;
-    margin-bottom:  40px;
-}
-.btnLink{
 
-    width: 140px;
+.btnLink {
+    min-width: 150px;
     padding-left: 15px;
     display: inline-flex;
     align-items: center;
     border-radius: 5px;
-    background-color: #A904BF;
+    background-color:rgb(220, 20, 60);
     border: 4px solid black;
-
 }
-.btnLink2{
+
+.btnLink2 {
+    margin-left: 30px;
     margin-right: 10px;
-    width: 140px;
+    width: 150px;
     padding-left: 15px;
     display: inline-flex;
     align-items: center;
     border-radius: 5px;
     background-color: white;
-    border: 4px solid black;
+    border: 2px solid rgb(220, 20, 60);
+}
 
+.botonesLink{
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.botonesLink2{
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .texto2 {
     padding: 5px 5px;
     text-decoration: none;
     color: white;
 }
-.informacion{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
 
 .proyectos {
-    padding-top: 0;
-    border-top:0 ;
-    text-align: center;
-    background: rgb(73, 5, 221);
-    background: linear-gradient(90deg, rgb(74, 17, 197) 0%, rgba(104,21,163,0.9080882352941176) 54%, rgb(117, 89, 182) 100%);
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+    width: 100%;
+    background: rgb(16, 61, 165);
+    color: white;
 }
 
 .carrusel {
     display: flex;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    gap: 20px; 
-    padding: 20px; 
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.col-md-12{
+    overflow-x: scroll;
 }
 
 .targeta {
-    min-width: 230px; 
+    min-width: 280px;
     scroll-snap-align: start;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(220, 20, 60);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
- .txtTargeta{
-    border: 5px solid #A904BF;
-    background-color: rgba(80, 6, 129, 0.6);
+    background-color: rgba(167, 167, 167, 0.1);
+
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }
 
-.educacion h1{
+.targeta img {
+    width: 100%; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.targeta h2 {
+    margin: 0;
+}
+
+.educacion h1 {
     text-align: center;
-    
-}
 
-.img2Contenedor{
- background-color: #7C00CF;
- padding-top: 20px;
- padding-bottom: 20px;
- border-radius: 10%;
-    margin-left: 140px;
-}
-.eContenedor{
-    margin-left: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(104, 46, 143, 0.9);
-    border: solid 4px #7C00CF;
-    width: 500px;
-    padding: 10px;
-}
-.extras{
-    margin-top: 100PX;
-    background: rgb(18,24,186);
-background: linear-gradient(90deg, rgba(18,24,186,1) 0%, rgba(49,21,163,0.9080882352941176) 54%, rgb(92, 47, 187) 100%);
-}
-
-.exContenedor{
-    margin-left: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;    
-    width: 400px;
-    padding: 10px;
 }
 
 
-.exContenedor2{
-    border: 5px solid #A904BF;
-    background-color: rgba(80, 6, 129, 0.6);
-    width: 400px;
-    height: 200px;
-    margin-right: 60px;
-    align-items: normal;
-    padding-left: 10px;
-}
-.tGracias{
+
+
+.tGracias {
     text-align: center;
     font-size: 60px;
-        color: white;
-
-}
-.btnsFinal{
-align-content: center;
-padding-left: 550px;
+    color: white;
 }
 
-.ctmFooter{
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 5px;
-    padding-left: 5px;
-    display: flex; 
-    align-items: center; 
+.btnsFinal {
+    align-content: center;
+    padding-left: 550px;
+}
+
+.ctmFooter {
+    padding: 15px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    background: rgba(13, 20, 36, 0.8);
 
 }
 
-.imgFooter{
+.imgFooter {
     margin-left: 10px;
-    margin-right: 10px; 
+    margin-right: 10px;
     width: 80px;
-    
 }
-        .foot{
-            background: rgb(80, 75, 204);
-            background: linear-gradient(90deg, rgb(67, 19, 145) 0%,rgba(83, 23, 161, 0.908)) 54%, rgb(91, 23, 216) 100%);
-        }
+.bgFooter{
+    background-image: url('/images/lago.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+
+.skills{
+    padding: 70px;
+}
+.containerSkill {
+    margin: 20px;
+    width: 200px;
+    height: 130px;
+    position: relative;
+  }
+
+  @media (max-width: 950px) {
+    .presentacion {
+        padding-top: 60px;
+        height: auto; 
+    }
+    .tName {
+        font-size: 60px;
+    }
+    
+    .eSaludo {
+        font-size: 30px;
+    }
+    .presentacion2 {
+        padding-top: 60px;
+
+        height: auto;
+    }
+    .img1Contenedor{
+        margin-top: auto;
+    }
+    .img2Contenedor {
+        margin: auto;
+
+    }
+    .skills{
+        padding: 10px;
+    }
+}
+  
