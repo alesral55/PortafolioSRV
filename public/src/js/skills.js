@@ -1,7 +1,7 @@
 function createSkillProgressBar(container, percentage, skillName) {
     const bar = new ProgressBar.SemiCircle(container, {
         strokeWidth: 8,
-        color: '#FFEA82',
+        color: '#fff',
         trailColor: '#eee',
         trailWidth: 1,
         easing: 'easeInOut',
@@ -12,8 +12,8 @@ function createSkillProgressBar(container, percentage, skillName) {
             value: '',
             alignToBottom: false,
         },
-        from: { color: '#FFEA82' },
-        to: { color: 'rgb(220, 20, 60);' },
+        from: { color: '#fff' },
+        to: { color: '#B71C1C' },
         step: (state, bar) => {
             bar.path.setAttribute('stroke', state.color);
             const value = Math.round(bar.value() * 100);

@@ -277,6 +277,7 @@ padding: 0;
 
 .targeta {
     min-width: 280px;
+    max-width: 285px;
     scroll-snap-align: start;
     border: 1px solid rgb(220, 20, 60);
     border-radius: 10px;
