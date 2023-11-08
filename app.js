@@ -32,6 +32,9 @@ app.get('/Proyecto5', (req, res ) => {
 app.get('/Proyecto6', (req, res ) => {
     res.render('Poyecto6')
 })
+app.get('/Proyecto7', (req, res ) => {
+    res.render('Poyecto7')
+})
 app.get('/Contacto', (req, res ) => {
     res.render('Contacto')
 })
