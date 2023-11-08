@@ -8,10 +8,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
 ::-webkit-scrollbar {
     display: none; 
 }
-
 .presentacion {
 
     height: 100vh; 
@@ -269,8 +269,20 @@ padding: 0;
     overflow-x: scroll;
     gap: 20px;
     padding: 20px;
-    padding-bottom: 50px;
-}
+    padding-bottom: 30px;
+    scrollbar-width: thin;
+    scrollbar-color: red transparent;
+  }
+  
+  .carrusel::-webkit-scrollbar {
+    width: 15px; 
+    display: block; 
+  }
+  
+  .carrusel::-webkit-scrollbar-thumb {
+    background: rgb(220, 20, 60); 
+    border-radius: 10px;
+  }
 .col-md-12{
     overflow-x: scroll;
 }
@@ -288,6 +300,10 @@ padding: 0;
     align-items: center; 
     justify-content: center; 
     text-align: center; 
+}
+
+.targeta:hover{
+    scale: 1.05;
 }
 
 .targeta img {

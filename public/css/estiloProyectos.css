@@ -155,7 +155,20 @@ label{
     padding: 20px;
     padding-bottom: 50px;
 }
+.carrusel2 {
+    max-width: 300px;
+    max-height: 350px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
 
+
+.carrusel3 {
+    max-width: 500px;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
 .iframe-container {
     position: relative;
     padding-bottom: 56.25%; 
