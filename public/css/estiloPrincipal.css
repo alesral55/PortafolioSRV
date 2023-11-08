@@ -46,17 +46,26 @@ padding: 0;
     align-items: center;
     color: white; 
 }
-.presentacion3 {
+.presentacion4 {
     top: 0;
     left: 0;
     height: 100vh; 
     width: 100%;
     background: rgba(13, 20, 36,0.9);
     padding: 10px;
+    color: white; 
+}
+
+
+.presentacion3 {
+    top: 0;
+    left: 0;
+    height: 80vh; 
+    width: 100%;
+    padding: 10px;
     display: flex;
     color: white; 
     overflow-x: scroll;
-
 }
 
 
@@ -205,7 +214,7 @@ padding: 0;
 
 
 .btnLink {
-    min-width: 150px;
+    min-width: 130px;
     padding-left: 15px;
     display: inline-flex;
     align-items: center;
@@ -331,8 +340,17 @@ padding: 0;
     color: white;
 
 }
-
-
+.eTitulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    height: 100%; /* Asegura que el título ocupe toda la altura del contenedor si es necesario */
+    margin: 0; /* Elimina cualquier margen por defecto */
+}
+.Titulo{
+    margin-left: 30px;
+}
 .skills{
     padding: 70px;
 }
@@ -343,7 +361,7 @@ padding: 0;
     position: relative;
   }
 
-  @media (max-width: 950px) {
+  @media (max-width: 1000px) {
     .presentacion {
         padding-top: 60px;
         height: auto; 
@@ -368,7 +386,21 @@ padding: 0;
 
     }
     .skills{
-        padding: 10px;
+        padding: 0;
+        padding-left: 20px;
+    }
+    .containerSkill {
+        margin: 10px;
+        padding: 5;
+        width: 130px;
+        height: 100px;
+
+    }
+    .ctmFooter {
+        padding: 0;
+        padding-left: 20px;
+
+    
     }
 }
-  
+
