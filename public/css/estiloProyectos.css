@@ -1,3 +1,177 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-image: url('/images/setupm.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    display: none; 
+}
+
+.tp {
+    font-family: "Poppins",Sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+.presentacion {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background: rgba(13, 20, 36,0.6);
+    padding-top: 70px;
+    color: white; 
+    
+}
+.presentacion2 {
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100%;
+    background: rgba(13, 20, 36,0.6);
+    padding: 10px;
+    color: white; 
+}
+
+
+.btnRegreso {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    margin-left: 20PX;
+    padding-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+.arrowContainer {
+    background-color: rgb(220, 20, 60);
+    border: none; 
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.arrowContainer img {
+    width: 35px;
+    height: 25px;
+}
+
+.texto {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: black;
+}
+.texto2 {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.btnLink {
+
+    min-width: 130px;
+    padding-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color:rgb(220, 20, 60);
+    border: 4px solid black;
+}
+
+
+.textoS {
+    background-color:  rgba(13, 20, 36,0.6);
+    border: 3px solid rgb(220, 20, 60);
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.Imagenes {
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+label{
+    color: white;
+    font-size: x-large;
+    
+}  
+.img1 {
+    width: 400px;
+    box-shadow: -15px 15px 1px rgba(13, 20, 36,0.6);
+    margin-bottom: 10px;
+}
+
+.img2 {
+    width: 400px;
+    box-shadow: -30px 30px 40px 1px rgba(13, 20, 36, 0.8);
+    margin-bottom: 10px;
+}
+
+
+.ctmFooter {
+    padding: 15px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    background: rgba(13, 20, 36, 0.8);
+
+}
+
+.imgFooter {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+}
+.bgFooter{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+.carrusel {
+    max-width: 800px;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16) */
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*
+
 body {
     font-family: "Comic Sans MS", cursive;
     background-image: url(/src/imagenes/fDark.jpg);
@@ -34,10 +208,11 @@ label{
     color: white;
 }
 .tp {
-    color: #7C00CF;
-    -webkit-text-stroke: 0.5px white;
-    padding-left: 100px;
-    font-size: xxx-large;
+    font-family: "Poppins",Sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 40px;
+    color: white;
 }
 
 .parrafoP {
@@ -176,4 +351,4 @@ box-shadow: -30px 30px 1px #7C00CF;
         .foot{
             background: rgb(65, 63, 116);
             background: linear-gradient(90deg, rgb(39, 16, 75) 0%, rgba(64, 31, 107, 0.908) 54%, rgb(60, 33, 110) 100%);
-        }
+        }*/

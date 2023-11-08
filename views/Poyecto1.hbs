@@ -6,62 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estiloProyectos.css">
+    <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.0.1/dist/progressbar.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
     <title>PO .NET</title>
 </head>
 
 <body>
-    
-            {{>header}}
 
-        {{>nav}}
-    <div>
+    {{>header}}
+
+    {{>nav}}
+
+    <div class="presentacion text-center">
 
 
-        <p class="portafolio"> Portafolio</p>
-        <table>
-            <tbody>
-                <td>
-                    <h2 class="tp">PO .NET</h2>
-<div class="parrafoD">
-    <p class="parrafoP">Este proyecto tubo como finalidad poner en
-        practica los conocimientos adquiridos de la
-        programación orientada a objetos usando como
-        lenguaje base de programación C# en .Net,
-        auxiliado de SQL Server como motor de Base de
-        Datos y de Bootstrap como librería de estilos
-    </p>
-</div>
-<div class="btnRegreso">
-    <a class="texto" href="/">Regresar</a>
-    <div class="arrowContainer">
-        <img src="src/imagenes/flecha.png" alt="Flecha">
-    </div>
-</div>
-                </td>
-                <td>
-                    <div>
-                        <img class="img1" src="src/imagenes/po.png" width="390px" alt="">
+
+
+        <div class="row">
+            <h2 class="tp">PO .NET - Desarrollo de Aplicación Web</h2>
+
+            <div class="col-md-6">
+                <div class="textoS">
+                    <p>
+                        Este proyecto destacó por su aplicación de programación orientada a objetos (POO) en C#/.NET,
+                        con integración de SQL Server para la base de datos y Bootstrap para el diseño. Aspectos
+                        destacados:
+                    </p>
+                    <p>
+                        Este proyecto no solo representa un logro en mi trayectoria profesional, sino también un
+                        compromiso
+                        continuo con la mejora y el perfeccionamiento. La experiencia adquirida en el desarrollo de "PO
+                        .NET" ha dejado una huella duradera en mi camino como desarrollador, y espero con entusiasmo los
+                        desafíos futuros que me permitirán seguir creciendo y perfeccionando mis habilidades en el mundo
+                        del
+                        desarrollo de software.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="textoS">
+                    <h3>Aspectos Destacados del Proyecto:</h3>
+                    <ul>
+                        <li><strong>Programación Orientada a Objetos:</strong> Implementación de POO para modularidad y
+                            mantenibilidad.</li>
+                        <li><strong>Lenguaje C#:</strong> Desarrollo con C# para un código estructurado.</li>
+                        <li><strong>SQL Server:</strong> Integración con SQL Server para la gestión de datos.</li>
+                        <li><strong>Diseño Atractivo con Bootstrap:</strong> Interfaz de usuario moderna y adaptable.
+                        </li>
+                        <li><strong>Aprendizaje Continuo:</strong> Experiencia en resolución de problemas y gestión de
+                            proyectos.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="container">
+
+
+                    <div class="carrusel">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                            data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="src/imagenes/po.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/imagenes/po2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/imagenes/po3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
-                    <div class="img2">
-                        <img src="src/imagenes/po2.png" width="390px" alt="">
-                    </div>
 
-                </td>
-            </tbody>
-        </table>
+                </div>
+            </div>
+
+            <div class="col-md-6">
 
 
-
-        
+            </div>
+        </div>
+        <div class="btnRegreso">
+            <a class="texto" href="/">Regresar</a>
+            <div class="arrowContainer">
+                <img src="src/imagenes/flecha.png" alt="Flecha">
+            </div>
+        </div>
 
     </div>
+
+
 
 
 
 </body>
-<footer>
+{{>footer}}
 
-             {{>footer}}
-</footer>
 </html>

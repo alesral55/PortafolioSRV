@@ -6,62 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estiloProyectos.css">
+    <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.0.1/dist/progressbar.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 
     <title>Interprete</title>
 </head>
 
 <body>
-    
-            {{>header}}
 
-        {{>nav}}
-    <div>
+    {{>header}}
+
+    {{>nav}}
 
 
-        <p class="portafolio"> Portafolio</p>
-        <table>
-            <tbody>
-                <td>
-                    <h2 class="tp">Interprete</h2>
-<div class="parrafoD">
-    <p class="parrafoP">Este proyecto tubo como finalidad poner en
-        practica los conocimientos adquiridos del curso de Compiladores
-        el cul tubo como finalidad inculcar las bases de la programacion y los distintos 
-        procesos previos que se realizan antes de ejecutar un programa, este fue realizado 
-        en lenguaje Java como aplicacion nativa para windows
-    </p>
-</div>
-                    
-                    
+    <div class="presentacion text-center">
+
+
+
+
+        <div class="row">
+            <h2 class="tp">Interprete</h2>
+
+            <div class="col-md-6">
+                <div class="textoS">
+                    <p>
+                        El proyecto de Compiladores tenía como objetivo principal aplicar los conocimientos adquiridos
+                        durante el curso, donde se exploraron los fundamentos de la programación y los procesos previos
+                        necesarios antes de ejecutar un programa. Este proyecto se desarrolló en Java y se entregó como
+                        una aplicación nativa para el sistema operativo Windows.
+                    </p>
+                    <p>
+                        Durante este proyecto, se pusieron en práctica los conceptos esenciales relacionados con la
+                        compilación y la generación de código. La implementación en Java permitió la creación de una
+                        aplicación efectiva y funcional que pudo ejecutarse en entornos Windows.
+
+                    </p>
+                    <p>
+
+
+                        En resumen, este proyecto brindó una oportunidad valiosa para aplicar los conceptos clave de la
+                        programación y la creación de programas ejecutables, lo que fortaleció mi comprensión de los
+                        procesos de compilación y ejecución de software.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="container">
+
+
+                    <div class="carrusel">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                            data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="src/imagenes/interprete.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="src/imagenes/interprete2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="iframe-container">
+                                        <iframe
+                                            src="https://drive.google.com/file/d/1wJ91v2sKUwVB4ZfSiKmL3lDWeuw3j7FD/preview"
+                                            width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+
+            </div>
+        </div>
         <div class="btnRegreso">
             <a class="texto" href="/">Regresar</a>
             <div class="arrowContainer">
                 <img src="src/imagenes/flecha.png" alt="Flecha">
             </div>
         </div>
-                </td>
-                <td>
-                    <div >
-                        <img class="img1" src="src/imagenes/interprete.png" width="380px" alt="">
-                    </div>
-                    <div>
-                        <img class="img2" src="src/imagenes/interprete2.png" width="380px" alt="">
-                    </div>
-
-                </td>
-            </tbody>
-        </table>
-
-
-
 
     </div>
 
 
 
-</body>
-<footer>
 
-             {{>footer}}
-</footer>
+</body>
+
+
+{{>footer}}
+
 </html>
